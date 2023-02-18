@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      div > p {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>child selector</h2>
+    <p>
+      the child selector (>) selected all element that are children of specified
+      elelment
+    </p>
+
+    <div>
+      <p>paregraph 1 is div.</p>
+      <p>paregraph 2 is the div</p>
+      <section>
+        <!---not child but decendant -->
+        <p>paregraph 3 is the div inside selection element.</p>
+      </section>
+      <p>paregraph 4 is the div .</p>
+    </div>
+    <p>paregraph 5.not an a div </p>
+    <p>oaregraph 6.not in a div</p>
+  </body>
+</html>
